@@ -74,7 +74,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.median;
+})();
 })();
 </script>
 ```
@@ -140,6 +142,7 @@ v = median( 1.0, 0.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-median@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var gamma;
 var x0;
@@ -153,6 +156,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x0: %d, γ: %d, Median(X;x0,γ): %d', x0.toFixed( 4 ), gamma.toFixed( 4 ), v.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
