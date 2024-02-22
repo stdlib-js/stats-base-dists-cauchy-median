@@ -67,7 +67,7 @@ The [median][median] for a [Cauchy][cauchy-distribution] random variable with lo
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-median@v0.2.1-esm/index.mjs';
 ```
 
 #### median( x0, gamma )
@@ -130,7 +130,7 @@ v = median( 1.0, 0.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-median@v0.2.1-esm/index.mjs';
 
 var gamma;
 var x0;
