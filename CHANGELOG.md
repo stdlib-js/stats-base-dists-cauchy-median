@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-22)
+## 0.3.0 (2026-01-28)
 
 <section class="features">
 
@@ -34,9 +34,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`555255c`](https://github.com/stdlib-js/stdlib/commit/555255c2ee6c26f065f0bb20eec9314c8d1d2263) - **docs:** update `stats/base/dists/cauchy` examples to use Greek symbols _(by Philipp Burckhardt)_
--   [`f025bc3`](https://github.com/stdlib-js/stdlib/commit/f025bc39e4761a1c7dee8bf781581b75868b3a89) - **bench:** update random value generation [(#6954)](https://github.com/stdlib-js/stdlib/pull/6954) _(by Harsh)_
--   [`ca3d958`](https://github.com/stdlib-js/stdlib/commit/ca3d958f22927d6a6d4af71f50b92b5f7be27d7c) - **docs:** replace manual `for` loop in examples [(#6919)](https://github.com/stdlib-js/stdlib/pull/6919) _(by Harsh, Philipp Burckhardt)_
+-   [`f025bc3`](https://github.com/stdlib-js/stdlib/commit/f025bc39e4761a1c7dee8bf781581b75868b3a89) - **bench:** update random value generation [(#6954)](https://github.com/stdlib-js/stdlib/pull/6954) _(by Harsh Yadav)_
+-   [`ca3d958`](https://github.com/stdlib-js/stdlib/commit/ca3d958f22927d6a6d4af71f50b92b5f7be27d7c) - **docs:** replace manual `for` loop in examples [(#6919)](https://github.com/stdlib-js/stdlib/pull/6919) _(by Harsh Yadav, Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`f2d2150`](https://github.com/stdlib-js/stdlib/commit/f2d21507493d82265ec30daa3aa00a0829e902c9) - **bench:** refactor random number generation in `stats/base/dists/cauchy` [(#4850)](https://github.com/stdlib-js/stdlib/pull/4850) _(by Karan Anand)_
@@ -54,7 +55,7 @@ This release closes the following issue:
 
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 -   Vivek Maurya
